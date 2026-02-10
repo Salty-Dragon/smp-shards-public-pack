@@ -1,103 +1,103 @@
 {
   "model": {
-    "type": "minecraft:select",
+    "type": "minecraft:range_dispatch",
     "property": "minecraft:custom_model_data",
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/nether_star"
-    },
-    "cases": [
+    "entries": [
       {
-        "when": 1001,
+        "threshold": 1013,
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/shards/echo_shard"
+          "model": "minecraft:item/shards/chaos_shard"
         }
       },
       {
-        "when": 1002,
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/shards/health_shard"
-        }
-      },
-      {
-        "when": 1003,
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/shards/lightning_shard"
-        }
-      },
-      {
-        "when": 1004,
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/shards/hell_shard"
-        }
-      },
-      {
-        "when": 1005,
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/shards/sky_shard"
-        }
-      },
-      {
-        "when": 1006,
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/shards/ice_shard"
-        }
-      },
-      {
-        "when": 1007,
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/shards/shadow_shard"
-        }
-      },
-      {
-        "when": 1008,
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/shards/nature_shard"
-        }
-      },
-      {
-        "when": 1009,
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/shards/earth_shard"
-        }
-      },
-      {
-        "when": 1010,
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/shards/celestial_shard"
-        }
-      },
-      {
-        "when": 1011,
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/shards/void_shard"
-        }
-      },
-      {
-        "when": 1012,
+        "threshold": 1012,
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/shards/time_shard"
         }
       },
       {
-        "when": 1013,
+        "threshold": 1011,
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/shards/chaos_shard"
+          "model": "minecraft:item/shards/void_shard"
+        }
+      },
+      {
+        "threshold": 1010,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/shards/celestial_shard"
+        }
+      },
+      {
+        "threshold": 1009,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/shards/earth_shard"
+        }
+      },
+      {
+        "threshold": 1008,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/shards/nature_shard"
+        }
+      },
+      {
+        "threshold": 1007,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/shards/shadow_shard"
+        }
+      },
+      {
+        "threshold": 1006,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/shards/ice_shard"
+        }
+      },
+      {
+        "threshold": 1005,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/shards/sky_shard"
+        }
+      },
+      {
+        "threshold": 1004,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/shards/hell_shard"
+        }
+      },
+      {
+        "threshold": 1003,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/shards/lightning_shard"
+        }
+      },
+      {
+        "threshold": 1002,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/shards/health_shard"
+        }
+      },
+      {
+        "threshold": 1001,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/shards/echo_shard"
         }
       }
-    ]
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/nether_star"
+    }
   }
 }
