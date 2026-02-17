@@ -94,6 +94,13 @@
           "type": "minecraft:model",
           "model": "minecraft:item/shards/chaos_shard"
         }
+      },
+      {
+        "threshold": 1015,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/shards/reroller_shard"
+        }
       }
     ],
     "fallback": {
