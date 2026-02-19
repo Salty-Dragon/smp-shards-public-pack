@@ -96,6 +96,13 @@
         }
       },
       {
+        "threshold": 1014,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/shards/upgrade_shard"
+        }
+      },
+      {
         "threshold": 1015,
         "model": {
           "type": "minecraft:model",
