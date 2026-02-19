@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/nether_star",
+  "textures": {
+    "layer0": "minecraft:item/upgrade_shard"
+  }
+}
