@@ -108,6 +108,13 @@
           "type": "minecraft:model",
           "model": "minecraft:item/shards/reroller_shard"
         }
+      },
+      {
+        "threshold": 1016,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/shards/repair_kit"
+        }
       }
     ],
     "fallback": {
