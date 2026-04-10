@@ -13,6 +13,16 @@
             "type": "minecraft:shield"
           }
         }
+      },
+      {
+        "threshold": 1018,
+        "model": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/shield",
+          "model": {
+            "type": "minecraft:shield"
+          }
+        }
       }
     ],
     "fallback": {
